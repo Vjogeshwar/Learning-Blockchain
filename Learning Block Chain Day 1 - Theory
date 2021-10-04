@@ -1,0 +1,16 @@
+Ethereum - Ethereum is a technology that's home to digital money, global payments, and applications.
+Smart Contracts allow agreements without Centralized Intermediaries.
+Smart Contracts are self-executing sets of instructions without involvement of 3rd Party.
+Smart Contracts are written in code.
+Smart Contracts need real world data.
+Oracles are devices that bring data into block chain and execute external computations.
+Oracles and SCs are decentralized applications.
+For On-Chain logic will be decentralized on Block Chains.
+Of-Chain are the external application that hold real world data and need to implement Block chain. E.g. ERP system, Logistic systems.
+Combining Of-Chain and On-Chain components is called as Hybrid Smart contracts.
+Chainlink - Chainlink allows for unlimited smart contract customization. Chainlink is most popular used decentralized oracle platform.
+Chainlink provide data and external computation to Smart Contracts.
+Dapp = Smart Contract = Decentralized application.
+Ethereum is the most used Block Chain/Smart Contract protocol/Smart Contract Platform.
+Bitcoin is the first application to take Block chain Mainstream.
+Bitcoin is like a digital gold.

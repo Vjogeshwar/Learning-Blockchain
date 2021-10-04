@@ -1,0 +1,26 @@
+Features of Block Chain:
+a) Decentalized - No Centralized source or an entity to control.
+b) Transparency & Flexibility - Everything On-Chain is visible to everyone.
+c) Speed & Efficiency
+d) Secutiry & Immutabiity - Block chain cannot be changed/altered/intact meaning it is secure.
+e) Removal of Counter party risk - e.g. insurance company- They resist to pay money on time.
+f) Trust minimized agreements
+g) Hybrid Smart Contracts combine On-chain and Of-chain.
+Metamask - Ethereum wallet (have used this for learning purpose). Learnt how the wallet looks with dummy ETH :D. Created an account.
+Etherscan - Portal to view transaction using account address.
+Rinkeby Authenticated Faucet - To add ETH to Wallet for a specific account.
+I will be using Kovan and Rinkeby test nets. 
+Faucet : Is an application that give us free test tokens, like free test Rinkeby Ethereum.
+Block Explorer : An application that allows us to view transactions that happens on a Block chain.
+Transaction Details consist of following details:
+a) Transaction Hash : Unique key to identify transactions
+b) Status : Success/Fail
+c) Block : Block Number
+d) Time Stamp : Created on
+e) From : Address of an account from which amount is sent
+f) To : Address of an account of Receiver 
+g) Transaction fees
+GAS - Gas is a unit of computational measure. The more computation a transaction uses the more "Gas" needs to be paid.
+Every transaction that happens on-chain pays a "Gas Fee" to node operators.
+The amount of "Gas" used and how much you pay depends upon how "Computationally expensive" your transaction is.
+Sending ETH to 1 address would be cheaper than sending ETH to 1000 addresses.

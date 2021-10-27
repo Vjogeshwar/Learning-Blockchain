@@ -37,13 +37,14 @@
 ## What is a Blockchain?
 - [Learning Blockchain Day 1](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Block%20Chain%20Day%201%20-%20Theory)
 - [Learning Blockchain Day 2](https://github.com/Vjogeshwar/Learning-Blockchain/commit/9ba807ce25387134e68d6c6893f2a46badebdaad)
+- ![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/day2-1.PNG)
 ## Making Your First Transaction
 - [Metamask](https://metamask.io/)
 - [Etherscan](https://etherscan.io/)
 - [Rinkeby Etherscan](https://rinkeby.etherscan.io/)
 - [Kovan Etherscan](https://kovan.etherscan.io/)
 - Rinkeby Faucet (Check the [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby))
-  - NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.  
+- NOTE: The Chainlink documentation always has the most up to date faucets on their [link token contracts page](https://docs.chain.link/docs/link-token-contracts/#rinkeby). If the faucet above is broken, check the chainlink documentation for the most up to date faucet.  
 - OR, use the [Kovan ETH Faucet](https://faucets.chain.link/), just be sure to swap your metamask to kovan!
 - [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)

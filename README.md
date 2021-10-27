@@ -7,7 +7,6 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Resources For This Course](#resources-for-this-course)
-    - [Questions](#questions)
 - [Lesson 0: Welcome To Blockchain](#lesson-0-welcome-to-blockchain)
   - [What is a Blockchain?](#what-is-a-blockchain)
   - [Making Your First Transaction](#making-your-first-transaction)

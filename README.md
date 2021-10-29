@@ -149,7 +149,7 @@
       - Inheritance (Is external contract)
 - Following is the code snippet depicting "Import"
 ```
-    / SPDX-License-Identifier: MIT
+    // SPDX-License-Identifier: MIT
 
     pragma solidity  ^0.6.0;
 
@@ -164,7 +164,7 @@
 ```
 - 💻 Code: [Calling a Contract from another contract using Import](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
 
-- Following is the code snippet depicting "Inheritance"
+- Following is the code snippet depicting "Inheritance", in thes method we will have acces to all the methods and variable of called contract.
 ```
     // SPDX-License-Identifier: MIT
 
@@ -174,7 +174,7 @@
     //We will be calling a Simple_Storage_VJ contract from this contract. We need to tell Storage Factory contract to deploy contract from here
     //Import is same as copy paste of code of smartcontract that is called.
 
-    //import "./Simple_Storage_VJ.sol";
+    import "./Simple_Storage_VJ.sol";
     //This is the way to import any type of file or a contract.
 
 

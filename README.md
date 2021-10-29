@@ -61,7 +61,7 @@
 - Nonce
 - Private Key
 - Public Key
-- Learning Blockchain Day 2 Notes
+- Learning Blockchain Day 3 Notes
 ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-1.PNG)
 ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-2.PNG)
 ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-3.PNG)
@@ -125,7 +125,7 @@
 - SPDX License
 - JavaScript Virtual Machine
 
-### Below is the code hyperlink for my first Smart contract in Solidity. This code creates a list of people storing name and favorite number.
+### Below is the code hyperlink for my first Smart contract in Solidity. This code creates a list of people storing their name and favorite number.
 - 💻 _Code_: [Smartcontract To Add Person Name and Favourite Number To The People List](https://github.com/Vjogeshwar/People_List_SmartContract)
 
 ## ⇨ Day 7 Learning
@@ -144,8 +144,10 @@
 - Deploy a Contract From a Contract
 - Interact With a Deployed Contract
 
-### Below is the code hyperlink for  Smart contract in Solidity. This
-- 💻 Code: [Calling a Contract from another contract using Import](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
+#### There are 2 ways to use the different contract or an external contract within the contract. 
+      - Import 
+      - Inheritance (Is external contract)
+- Following is the code snippet depicting "Import"
 --- 
 / SPDX-License-Identifier: MIT
 
@@ -160,7 +162,9 @@ import "./Simple_Storage_VJ.sol";
 
 contract StorageFactory {
 ---
-- 💻 Code: [Calling a Contract from another contract using Inheritance](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
+- 💻 Code: [Calling a Contract from another contract using Import](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
+
+- Following is the code snippet depicting "Inheritance"
 ---
 // SPDX-License-Identifier: MIT
 
@@ -177,6 +181,8 @@ pragma solidity  ^0.6.0;
 contract StorageFactory is SimpleStorage { //Ineheritace, now we will have all variables and fuctions available directly inside StorageFactory
 //Deploy a contract from a contract
 ---
+- 💻 Code: [Calling a Contract from another contract using Inheritance](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
+
 # Lesson 3: Fund Me
 ## ⇨ Day 9 Learning
 💻 Code: https://github.com/Vjogeshwar/Inheritance_calling_contract

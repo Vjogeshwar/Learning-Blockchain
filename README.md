@@ -63,10 +63,10 @@
 - Private Key
 - Public Key
 - Learning Blockchain Day 2 Notes
-![Day 3 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 3\day3-1.PNG)
-![Day 3 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 3\day3-2.PNG)
-![Day 3 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 3\day3-3.PNG)
-![Day 3 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 3\day3-4.PNG)
+![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-1.PNG)
+![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-2.PNG)
+![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-3.PNG)
+![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-4.PNG)
 
 ## ⇨ Day 4 Learning
 - Node
@@ -76,10 +76,10 @@
     - Proof of Work
     - Proof of Stake
 - Learning Blockchain Day 4 Notes
-  ![Day 4 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 4\day4-1.PNG)
-  ![Day 4 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 4\day4-2.PNG)
-  ![Day 4 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 4\day4-3.PNG)
-  ![Day 4 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 4\day4-4.PNG)
+  ![Day 4 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%204/day4-1.PNG)
+  ![Day 4 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%204/day4-2.PNG)
+  ![Day 4 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%204/day4-3.PNG)
+  ![Day 4 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%204/day4-4.PNG)
 
 ## ⇨ Day 5 Learning
 - Types of Attack
@@ -94,11 +94,11 @@
   - Sharding
   - Layer 1 and Layer 2 
 - Learning Blockchain Day 5 Notes
-  ![Day 5 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 5\day5-1.PNG)
-  ![Day 5 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 5\day5-2.PNG)
-  ![Day 5 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 5\day5-3.PNG)
-  ![Day 5 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 5\day5-4.PNG)
-- ![Day 5 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 5\day5-5.PNG)
+  ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-1.PNG)
+  ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-2.PNG)
+  ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-3.PNG)
+  ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-4.PNG)
+- ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-5.PNG)
 
 # Lesson 1: Creating Smart contract - Simple Storage
 ## Concepts Learnt

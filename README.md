@@ -45,11 +45,10 @@
 - [Etherscan](https://etherscan.io/)
 - [Rinkeby Etherscan](https://rinkeby.etherscan.io/)
 - [Kovan Etherscan](https://kovan.etherscan.io/)
-- [Learning Blockchain Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/Learning%20Block%20Chain%20Day%202%20-%20Theory)
 - [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
 - [ETH Gas Station](https://ethgasstation.info/)
-- Learning Blockchain Day 2 Notes
+- [Learning Blockchain Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/Learning%20Block%20Chain%20Day%202%20-%20Theory)
 ![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-1.PNG)
 ![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-2.PNG)
 

@@ -33,7 +33,7 @@
 - Smart Contracts
 - Centralized and Decentralized
 - Bitcoin
-- [Learning Blockchain Day 1 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Block%20Chain%20Day%201%20-%20Theory)
+- [Learning Blockchain Day 1 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/tree/Block-Chain-Project/Learning%20Blockchain%20Day%201)
 
 ## ⇨ Day 2 Learning
 - Features of Blockchain
@@ -45,13 +45,13 @@
 - [Etherscan](https://etherscan.io/)
 - [Rinkeby Etherscan](https://rinkeby.etherscan.io/)
 - [Kovan Etherscan](https://kovan.etherscan.io/)
-- [Learning Blockchain Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/commit/9ba807ce25387134e68d6c6893f2a46badebdaad)
+- [Learning Blockchain Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/Learning%20Block%20Chain%20Day%202%20-%20Theory)
 - [Gas and Gas Fees](https://ethereum.org/en/developers/docs/gas/)
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
 - [ETH Gas Station](https://ethgasstation.info/)
 - Learning Blockchain Day 2 Notes
-![Day 2 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 2\day2-1.PNG)
-![Day 2 Notes](C:\Users\vj43825\Learning-Blockchain\Learning Blockchain Day 2\day2-2.PNG)
+![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-1.PNG)
+![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-2.PNG)
 
 ## ⇨ Day 3 Learning
 - Hash - SHA256 Algorithm

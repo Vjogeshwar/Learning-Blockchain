@@ -125,7 +125,7 @@
 - SPDX License
 - JavaScript Virtual Machine
 
-### Below is the code hyperlink for my first Smart contract in Solidity. This code creates a list of people storing their name and favorite number.
+#### Below is the code hyperlink for my first Smart contract in Solidity. This code creates a list of people storing their name and favorite number.
 - 💻 _Code_: [Smartcontract To Add Person Name and Favourite Number To The People List](https://github.com/Vjogeshwar/People_List_SmartContract)
 
 ## ⇨ Day 7 Learning
@@ -148,39 +148,41 @@
       - Import 
       - Inheritance (Is external contract)
 - Following is the code snippet depicting "Import"
---- 
-/ SPDX-License-Identifier: MIT
+```
+    / SPDX-License-Identifier: MIT
 
-pragma solidity  ^0.6.0;
+    pragma solidity  ^0.6.0;
 
 
-//We will be calling a Simple_Storage_VJ contract from this contract. We need to tell Storage Factory contract to deploy contract from here
-//Import is same as copy paste of code of smartcontract that is called.
+    //We will be calling a Simple_Storage_VJ contract from this contract. We need to tell Storage Factory contract to deploy contract from here
+    //Import is same as copy paste of code of smartcontract that is called.
 
-import "./Simple_Storage_VJ.sol";
-//This is the way to import any type of file or a contract.
+    import "./Simple_Storage_VJ.sol";
+    //This is the way to import any type of file or a contract.
 
-contract StorageFactory {
----
+    contract StorageFactory {
+```
 - 💻 Code: [Calling a Contract from another contract using Import](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
 
 - Following is the code snippet depicting "Inheritance"
----
-// SPDX-License-Identifier: MIT
+```
+    // SPDX-License-Identifier: MIT
 
-pragma solidity  ^0.6.0;
-
-
-//We will be calling a Simple_Storage_VJ contract from this contract. We need to tell Storage Factory contract to deploy contract from here
-//Import is same as copy paste of code of smartcontract that is called.
-
-//import "./Simple_Storage_VJ.sol";
-//This is the way to import any type of file or a contract.
+    pragma solidity  ^0.6.0;
 
 
-contract StorageFactory is SimpleStorage { //Ineheritace, now we will have all variables and fuctions available directly inside StorageFactory
-//Deploy a contract from a contract
----
+    //We will be calling a Simple_Storage_VJ contract from this contract. We need to tell Storage Factory contract to deploy contract from here
+    //Import is same as copy paste of code of smartcontract that is called.
+
+    //import "./Simple_Storage_VJ.sol";
+    //This is the way to import any type of file or a contract.
+
+
+    contract StorageFactory is SimpleStorage { 
+    //Ineheritace, now we will have all variables and fuctions available directly inside StorageFactory
+    //Deploy a contract from a contract
+    
+```
 - 💻 Code: [Calling a Contract from another contract using Inheritance](https://github.com/Vjogeshwar/Inheritance_calling_contract/blob/main/contracts/StorageFactory_VJ.sol)
 
 # Lesson 3: Fund Me

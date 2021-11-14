@@ -13,20 +13,20 @@
     - [Day 4 Learning](#Day-4-Learning)
     - [Day 5 Learning](#Day-5-Learning)
 - [Lesson 1: Creating Smart contract - Simple Storage](#lesson-1-Creating-Smart-contract-simple-storage)
-    - [Day 6 Learning](#Day-6-Learning)
-    - [Day 7 Learning](#Day-7-Learning)
+  - [Day 6 Learning](#Day-6-Learning)
+  - [Day 7 Learning](#Day-7-Learning)
 - [Lesson 2: Storage Factory](#lesson-2-storage-factory)
-    - [Day 8 Learning](#Day-8-Learning)
-    - [Day 9 Learning](#Day-9-Learning)
+  - [Day 8 Learning](#Day-8-Learning)
+  - [Day 9 Learning](#Day-9-Learning)
 - [Lesson 3: Fund Me](#lesson-3-fund-me)
-    - [Payable, msg.sender, msg.value, Units of Measure](#payable-msgsender-msgvalue-units-of-measure)
-    - [Chainlink Oracles](#chainlink-oracles)
-    - [Importing from NPM and Advanced Solidity](#importing-from-npm-and-advanced-solidity)
+  - [Payable, msg.sender, msg.value, Units of Measure](#payable-msgsender-msgvalue-units-of-measure)
+  - [Chainlink Oracles](#chainlink-oracles)
+  - [Importing from NPM and Advanced Solidity](#importing-from-npm-and-advanced-solidity)
 - [Resources For This Course](#resources-for-this-course)
 
 
 # Lesson 0: Welcome To Blockchain
-## Concepts Learnt 
+## Concepts Learnt
 ## ⇨ Day 1 Learning
 - Blockchain
 - Ethereum
@@ -49,8 +49,8 @@
 - [Wei, Gwei, and Ether Converter](https://eth-converter.com/)
 - [ETH Gas Station](https://ethgasstation.info/)
 - [Learning Blockchain Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/Learning%20Block%20Chain%20Day%202%20-%20Theory)
-![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-1.PNG)
-![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-2.PNG)
+  ![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-1.PNG)
+  ![Day 2 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%202/day2-2.PNG)
 
 ## ⇨ Day 3 Learning
 - Hash - SHA256 Algorithm
@@ -62,10 +62,10 @@
 - Private Key
 - Public Key
 - Learning Blockchain Day 3 Notes
-![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-1.PNG)
-![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-2.PNG)
-![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-3.PNG)
-![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-4.PNG)
+  ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-1.PNG)
+  ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-2.PNG)
+  ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-3.PNG)
+  ![Day 3 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%203/day3-4.PNG)
 
 ## ⇨ Day 4 Learning
 - Node
@@ -89,9 +89,9 @@
 - Problems of Blockchain
   - Scalability
   - Higher GAS fees
-- Solution to the problems 
+- Solution to the problems
   - Sharding
-  - Layer 1 and Layer 2 
+  - Layer 1 and Layer 2
 - Learning Blockchain Day 5 Notes
   ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-1.PNG)
   ![Day 5 Notes](https://github.com/Vjogeshwar/Learning-Blockchain/blob/Block-Chain-Project/Learning%20Blockchain%20Day%205/day5-2.PNG)
@@ -144,7 +144,7 @@
 - Deploy a Contract From a Contract
 - Interact With a Deployed Contract
 
-#### There are 2 ways to use the different contract or an external contract within the contract. 
+#### There are 2 ways to use the different contract or an external contract within the contract.
       - Import 
       - Inheritance (Is external contract)
 - Following is the code snippet depicting "Import"
@@ -189,26 +189,42 @@
 ## ⇨ Day 9 Learning
 💻 Code: https://github.com/Vjogeshwar/Inheritance_calling_contract
 ### Payable, msg.sender, msg.value, Units of Measure
-- Payable
+- Payable - If the function is made payable this means it is used for transferring funds.
 - [Wei/Gwei/Eth Converter](https://eth-converter.com/)
-- msg.sender & msg.value
+- msg.sender is the sender account or the account which will send the funds 
+- msg.value is the ETH amount that will be transferred.
+```
+    function fund() public payable {
+        //With minimumUSD we are putting a restriction on the minimum transaction value of 
+        // $50
+        uint256 minimumUSD = 50 * 10 ** 18; 
+        //1gwei < $50
+        require(getConversionRate(msg.value) >= minimumUSD, "You need to spend more ETH!");
+        //What the ETH -> USD conversion rete
+        addressToAmountFunded[msg.sender] += msg.value;
+        funders.push(msg.sender); //Push the current funder to the funder array.
+    }
+```
+## ⇨ Day 10 Learning
 ### Chainlink Oracles
-- Decentralized Oracle Network Chainlink
-  - Blockchains can't make API calls
-  - Centralized Nodes are Points of Failure
+We will use following for the new smartcontract that will be created.
 - [data.chain.link](https://data.chain.link/)
 - Getting External Data with Chainlink Oracles
   - [Chainlink](https://docs.chain.link/)
-  - [Faucets and Contract Addresses](https://docs.chain.link/docs/link-token-contracts/)
-    - [Kovan](https://docs.chain.link/docs/link-token-contracts/#kovan)
   - [Getting Price Information](https://docs.chain.link/docs/get-the-latest-price/)
 ### Importing from NPM and Advanced Solidity
+We get following mathematical functions to be used in our contract by importing interfaces(like contracts) from chainlink 
 - Decimals/Floating Point Numbers in Solidity
 - latestRoundData
 - Importing from NPM  in Remix
 - Interfaces
-  - Introduction to ABIs
+  - Introduction to ABIs (Application Binary Interfaces)
 - [Getting Price Feed Addresses](https://docs.chain.link/docs/reference-contracts/)
+```
+    import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
+    import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
+```
+## ⇨ Day 11 Learning
 - getPrice
 - Tuples
   - Unused Tuple Variables
@@ -219,10 +235,21 @@
   - using keyword
   - [Libraries](https://docs.soliditylang.org/en/v0.8.6/contracts.html#libraries)
   - SafeMath PSA
+```
+  contract FundMe {
+    using SafeMathChainlink for uint256; //This will prevent overflow issues with uint256 data type value storage
+    
+    function getPrice() public view returns(uint256){
+        AggregatorV3Interface priceFeed = AggregatorV3Interface(0xD0AAAb485DbEc71BaE70c4c5Ac7Ea18F5B0d00C2);
+        (,int256 answer,,,) = priceFeed.latestRoundData(); //Tuple definition
+         return uint256(answer * 10000000000);
+    }
+```
+## ⇨ Day 12 Learning
 - Setting a Threshold
 - Require
 - Revert
-- Withdraw Function 
+- Withdraw Function
 - Transfer
 - Balance
 - this
@@ -235,6 +262,8 @@
 - Array Length
 - Forcing a Transaction
 - Recap
+- 💻 Code: [Contract fundMe](https://github.com/Vjogeshwar/fund_me/blob/main/FundMe.sol)
+
 # Resources For This Course
 - [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)

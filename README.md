@@ -17,11 +17,14 @@
   - [Day 7 Learning](#Day-7-Learning)
 - [Lesson 2: Storage Factory](#lesson-2-storage-factory)
   - [Day 8 Learning](#Day-8-Learning)
-  - [Day 9 Learning](#Day-9-Learning)
 - [Lesson 3: Fund Me](#lesson-3-fund-me)
-  - [Payable, msg.sender, msg.value, Units of Measure](#payable-msgsender-msgvalue-units-of-measure)
-  - [Chainlink Oracles](#chainlink-oracles)
-  - [Importing from NPM and Advanced Solidity](#importing-from-npm-and-advanced-solidity)
+  - [Day 9 Learning](#Day-9-Learning)
+    - [Payable, msg.sender, msg.value, Units of Measure](#payable-msgsender-msgvalue-units-of-measure)
+  - [Day 10 Learning](#Day-10-Learning)
+    - [Chainlink Oracles](#chainlink-oracles)
+    - [Importing from NPM and Advanced Solidity](#importing-from-npm-and-advanced-solidity)
+  - [Day 11 Learning](#Day-11-Learning)
+  - [Day 12 Learning](#Day-12-Learning)
 - [Resources For This Course](#resources-for-this-course)
 
 
@@ -187,7 +190,6 @@
 
 # Lesson 3: Fund Me
 ## ⇨ Day 9 Learning
-💻 Code: https://github.com/Vjogeshwar/Inheritance_calling_contract
 ### Payable, msg.sender, msg.value, Units of Measure
 - Payable - If the function is made payable this means it is used for transferring funds.
 - [Wei/Gwei/Eth Converter](https://eth-converter.com/)
